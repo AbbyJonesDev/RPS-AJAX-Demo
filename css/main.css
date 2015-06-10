@@ -1,0 +1,111 @@
+/* @import url(normalize.css); */
+
+body {
+  text-align: center;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monospace;
+  padding: 10px 5px;
+  background: yellow;
+}
+
+main {
+  padding: 10px;
+}
+
+footer {
+  background-color: yellow;
+  padding: 20px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: monospace;
+}
+
+img {
+  display: block;
+  max-width: 250px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 25px;
+}
+
+#player1, .result a {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 20px;
+  width: 85%;
+  border: 5px solid yellow;
+  display: block;
+}
+
+.choices {
+  width: 90%;
+  margin-left: 5%;
+  padding: 0;
+}
+
+.choices a {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 15px auto;
+  border: 2px solid black;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#rock, #player2r {
+  background-color: red;
+  color: white;
+}
+
+#paper, #player2p {
+  background-color: yellow;
+  color: blue;
+}
+
+#scissors, #player2s {
+  background-color: blue;
+  color: yellow;
+}
+
+#p1-wins, #p2-wins, #tie-game {
+  width: 85%;
+  margin: 20px auto;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#p1-wins, h2.p1-turn {  
+  border: 5px dotted red;
+}
+
+#p2-wins, h2.p2-turn {  
+  border: 5px dotted blue;
+}
+
+#tie-game {  
+  border: 5px dotted yellow;
+}

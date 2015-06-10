@@ -1,0 +1,19 @@
+<h2 class="p2-turn">Player 2: Select Your Weapon!</h2>
+
+<section class="choices">
+   <a href="#" id="rock">Rock</a>
+   <a href="#" id="paper">Paper</a>
+   <a href="#" id="scissors">Scissors</a>
+</section>
+
+<script>
+  $('#rock').click(function() {
+    $('main').load('player1_wins.html');
+  });
+  $('#paper').click(function() {
+    $('main').load('tie.html');
+  });
+  $('#scissors').click(function() {
+    $('main').load('player2_wins.html');
+  });
+</script>
